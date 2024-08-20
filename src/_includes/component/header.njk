@@ -1,0 +1,29 @@
+<header style="--d: flex; --jc: space-between; --ai: center">
+    <nav id="edit_bar" style="--d: none">
+      <a id="save" href="data:text, To save enable javascript." onclick="saveDOMAsHTML();return false;">Save</a>
+      <a id="edit" href="data:text, To edit enable javascript." onclick="toggleAllTextEditable();return false;"
+        >Edit</a
+      >
+      <a
+        id="toggleDrag"
+        href="data:text, To drag enable javascript."
+        onclick="return false"
+        style="--d: none; --d-sm: inline"
+        >Drag</a
+      >
+    </nav>
+    <h1><a href="/">{{ title }}</a></h1>
+    <nav>
+      <menu style="--d:none; --d-sm: flex; --cg: 0.2ch; --lis: none">
+        <li>
+          menu item 1
+        </li> - 
+        <li>
+          menu item 2
+        </li> -
+        <li>
+          menu item 3
+        </li>
+      </menu>
+    </nav>
+  </header>

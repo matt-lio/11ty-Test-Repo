@@ -1,0 +1,18 @@
+---
+title: Your 11ty Starter Site
+---
+<!DOCTYPE html>
+<html lang="en">
+  {% include "component/head.njk" %}
+    <body style="--maxw-md: 40rem;
+    --m: auto;
+    --size: 1.2rem;">
+      {% include "component/header.njk" %}
+
+      {{ content | safe }}
+
+      {% include "component/footer.njk" %}
+      {% include "component/scripts.njk" %}
+    </body>
+  </html>
+</html>
